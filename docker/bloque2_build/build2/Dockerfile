@@ -1,0 +1,9 @@
+FROM bash
+
+
+ENV MY_ENV_VAR=TEST
+ARG MY_BUILD_VAR
+RUN echo "MY_BUILD_VAR: ${MY_BUILD_VAR}"
+RUN echo "MY_ENV_VAR: $MY_ENV_VAR"
+
+CMD ["echo", "hello"]
