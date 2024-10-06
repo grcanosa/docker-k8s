@@ -1,6 +1,6 @@
 # Common commands
 
-
+> Check PPT 37-40
 
 Run a container:
 
@@ -37,6 +37,8 @@ docker login registry-1.docker.io
 ## Tag
 
 to "rename" a docker image to a new name or tag.
+
+
 
 
 

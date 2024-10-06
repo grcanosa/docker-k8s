@@ -20,7 +20,7 @@ docker build --no-cache --build-arg MY_BUILD_VAR=TEST2 -t test --progress plain 
 
 let's try again docker run 
 docker run -it --rm test /bin/sh
-env var can be changed at runtime
+ENV VAR can be changed at runtime
 docker run -it --rm -e MY_ENV_VAR=OTHER test /bin/sh
 
 

@@ -1,5 +1,7 @@
 # Run docker images
 
+> PPT slides 41-48
+
 ## Simple run
 
 docker run hello-world
@@ -15,9 +17,9 @@ Execute "exit" to exit.
 
 ## Run a container with different options
 
-Go to build/build2 and build the container.
+Go to bloque build and build3_python and build the container.
 
-
+docker build -t mypythonapp .
 docker run --name mypythoncontainer -p 8080:8080 mypythonapp
 docker run -d --name mypythoncontainer2 -p 8080:8080 mypythonapp
 docker run -d --name mypythoncontainer3 -p 8081:8080 -e MYENV:MYTESTVALUE mypythonapp
